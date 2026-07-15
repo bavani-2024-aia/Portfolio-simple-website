@@ -10,6 +10,6 @@ This project was built to practice basic web development concepts such as HTML s
 
 ## 📬 Connect with Me
 
-* GitHub: https://github.com/your-username
-* LinkedIn: https://www.linkedin.com/in/your-profile
+* GitHub: https://github.com/bavani-2024-aia
+* LinkedIn: : https://www.linkedin.com/in/bavani-mahendran-4a7a2b314/
 * Email: bavanibav07@gmail.com

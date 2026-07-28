@@ -1,23 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Young Serif', serif;
 }
 
-.container{
+.container {
     padding: 50px;
 }
 
-.section-one{
+.section-one {
     background-color: black;
     color: white;
     padding: 20px;
 }
 
-.section-one__contact{
+.section-one__contact {
     background-color: orangered;
     color: white;
     text-decoration: none;
@@ -26,11 +26,11 @@ body{
     margin-top: 20px;
 }
 
-.section-one__name{
+.section-one__name {
     font-size: 60px;
 }
 
-.section-one__role{
+.section-one__role {
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -38,7 +38,7 @@ body{
 .section-two,
 .section-three,
 .section-four,
-.section-five{
+.section-five {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -46,28 +46,28 @@ body{
 .section-two__descr,
 .section-three__descr,
 .section-four__descr,
-.section-five__descr{
+.section-five__descr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.section-five{
+.section-five {
     background-color: black;
     color: white;
     padding: 20px;
 }
 
-.section-five__title a{
+.section-five__title a {
     color: skyblue;
 }
 
 .section-three li,
-.section-four li{
+.section-four li {
     list-style: none;
 }
 
 .section-three,
-.section-four{
+.section-four {
     display: inline-block;
     vertical-align: top;
     padding: 20px;
@@ -76,26 +76,26 @@ body{
     height: 200px;
 }
 
-.section-three{
+.section-three {
     background-color: #6462FD;
     color: black;
     width: 20%;
     margin-right: 15px;
 }
 
-.section-four{
+.section-four {
     background-color: #FE7517;
     color: black;
     width: 75%;
 }
 
-.section-contact{
+.section-contact {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .contact__input,
-.contact__textarea{
+.contact__textarea {
     padding: 8px;
     border: none;
     border-bottom: 1px solid black;
@@ -103,105 +103,153 @@ body{
     font-family: 'Young Serif', serif;
 }
 
-.contact__textarea{
+.contact__textarea {
     border: 1px solid black;
     resize: none;
     height: 70px;
 }
 
-table td{
+table td {
     padding: 10px;
 }
+
 /* Mobile adjustments */
 @media (max-width: 768px) {
-  /* Header text */
-  header h1 {
-    font-size: 1.8em;   /* smaller font for mobile */
-  }
-  header h2 {
-    font-size: 1.2em;
-  }
 
-  /* Contact button */
-  button {
-    width: 90%;         /* make button fit nicely */
-    margin: auto;
-    display: block;
-  }
+    /* Header text */
+    header h1 {
+        font-size: 1.8em;
+        /* smaller font for mobile */
+    }
 
-  /* About section */
-  .about {
-    text-align: center;
-    padding: 1em;
-  }
+    header h2 {
+        font-size: 1.2em;
+    }
 
-  /* Interests & Projects boxes */
-  .boxes {
-    display: flex;
-    flex-direction: column;  /* stack vertically */
-    gap: 1em;
-  }
+    /* Contact button */
+    button {
+        width: 90%;
+        /* make button fit nicely */
+        margin: auto;
+        display: block;
+    }
 
-  .box {
-    width: 100%;        /* full width on mobile */
-  }
+    /* About section */
+    .about {
+        text-align: center;
+        padding: 1em;
+    }
 
-  /* Footer */
-  footer {
-    text-align: center;
-    font-size: 0.9em;
-  }
+    /* Interests & Projects boxes */
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        /* stack vertically */
+        gap: 1em;
+    }
+
+    .box {
+        width: 100%;
+        /* full width on mobile */
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        font-size: 0.9em;
+    }
 }
+
 /* Mobile adjustments */
 @media (max-width: 768px) {
-  /* Section One (Header) */
-  .section-one__name {
-    font-size: 1.8em;
-    text-align: center;
-  }
-  .section-one__role {
-    font-size: 1.1em;
-    text-align: center;
-  }
-  .section-one__contact {
-    display: block;
-    width: 90%;
-    margin: 1em auto;
-    text-align: center;
-  }
 
-  /* Section Two (About Me) */
-  .section-two {
-    padding: 1em;
-    text-align: center;
-  }
+    /* Section One (Header) */
+    .section-one__name {
+        font-size: 1.8em;
+        text-align: center;
+    }
 
-  /* Section Three (Interests) */
-  .section-three {
-    width: 100%;
-    margin-bottom: 1em;
-    text-align: center;
-  }
-  .section-three__descr {
-    padding: 0;
-    list-style-position: inside;
-  }
+    .section-one__role {
+        font-size: 1.1em;
+        text-align: center;
+    }
 
-  /* Section Four (Projects) */
-  .section-four {
-    width: 100%;
-    margin-bottom: 1em;
-    text-align: center;
-  }
-  .section-four__descr {
-    padding: 0;
-    list-style-position: inside;
-  }
+    .section-one__contact {
+        display: block;
+        width: 90%;
+        margin: 1em auto;
+        text-align: center;
+    }
 
-  /* Section Five (Footer) */
-  .section-five {
-    text-align: center;
-    font-size: 0.9em;
-  }
+    /* Section Two (About Me) */
+    .section-two {
+        padding: 1em;
+        text-align: center;
+    }
+
+    /* Section Three (Interests) */
+    .section-three {
+        width: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .section-three__descr {
+        padding: 0;
+        list-style-position: inside;
+    }
+
+    /* Section Four (Projects) */
+    .section-four {
+        width: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .section-four__descr {
+        padding: 0;
+        list-style-position: inside;
+    }
+
+    /* Section Five (Footer) */
+    .section-five {
+        text-align: center;
+        font-size: 0.9em;
+    }
 }
 
+/* Tablet / mid-size screens */
+@media (max-width: 1024px) {
+
+    .section-three,
+    .section-four {
+        width: 90%;
+        margin: 0 auto 1em auto;
+        text-align: center;
+    }
+
+    .section-one__name {
+        font-size: 2em;
+    }
+
+    .section-one__role {
+        font-size: 1.2em;
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 768px) {
+
+    .section-three,
+    .section-four {
+        width: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .section-one__contact {
+        display: block;
+        width: 90%;
+        margin: 1em auto;
+    }
+}

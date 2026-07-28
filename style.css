@@ -152,3 +152,56 @@ table td{
     font-size: 0.9em;
   }
 }
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  /* Section One (Header) */
+  .section-one__name {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  .section-one__role {
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .section-one__contact {
+    display: block;
+    width: 90%;
+    margin: 1em auto;
+    text-align: center;
+  }
+
+  /* Section Two (About Me) */
+  .section-two {
+    padding: 1em;
+    text-align: center;
+  }
+
+  /* Section Three (Interests) */
+  .section-three {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .section-three__descr {
+    padding: 0;
+    list-style-position: inside;
+  }
+
+  /* Section Four (Projects) */
+  .section-four {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .section-four__descr {
+    padding: 0;
+    list-style-position: inside;
+  }
+
+  /* Section Five (Footer) */
+  .section-five {
+    text-align: center;
+    font-size: 0.9em;
+  }
+}
+

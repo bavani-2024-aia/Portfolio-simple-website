@@ -112,3 +112,43 @@ body{
 table td{
     padding: 10px;
 }
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  /* Header text */
+  header h1 {
+    font-size: 1.8em;   /* smaller font for mobile */
+  }
+  header h2 {
+    font-size: 1.2em;
+  }
+
+  /* Contact button */
+  button {
+    width: 90%;         /* make button fit nicely */
+    margin: auto;
+    display: block;
+  }
+
+  /* About section */
+  .about {
+    text-align: center;
+    padding: 1em;
+  }
+
+  /* Interests & Projects boxes */
+  .boxes {
+    display: flex;
+    flex-direction: column;  /* stack vertically */
+    gap: 1em;
+  }
+
+  .box {
+    width: 100%;        /* full width on mobile */
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+  }
+}
